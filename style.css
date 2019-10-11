@@ -1,0 +1,15 @@
+#myCalc {
+    height: 100vh;
+}
+
+#screenOutput {
+    min-height: 115px;
+}
+
+.row>* {
+    cursor: pointer;
+}
+
+/* .symbol div:last-child {
+    font-size: 30px !important;
+} */
