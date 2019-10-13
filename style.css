@@ -6,10 +6,22 @@
     min-height: 115px;
 }
 
-.row>* {
-    cursor: pointer;
+small {
+    min-height: 18px;
 }
 
-/* .symbol div:last-child {
-    font-size: 30px !important;
-} */
+.row>* {
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.row>div:hover {
+    background: rgba(0, 123, 255, 0.473) !important;
+    /* !important had to be used to overwrite bootstrap */
+}
+
+#myCalc .output div:hover {
+    background: #343a40 !important;
+    cursor: auto;
+    /* !important had to be used to overwrite bootstrap */
+}
